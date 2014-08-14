@@ -7,16 +7,16 @@ gulp.task('run', shell.task([
 ]));
 
 // Compile project
-gulp.task('osx', shell.task([
+gulp.task('build-osx', shell.task([
     'node_modules/node-webkit-builder/bin/nwbuild -v 0.10.1 -p osx ./'
 ]));
 
 // Compile project
-gulp.task('win', shell.task([
+gulp.task('build-win', shell.task([
     'node_modules/node-webkit-builder/bin/nwbuild -v 0.10.2 -p win ./'
 ]));
 
 // Compile project
-gulp.task('linux', shell.task([
-    'node_modules/node-webkit-builder/bin/nwbuild -v 0.10.2 -p linux32,linux64 ./'
+gulp.task('build-linux', shell.task([
+    'node_modules/node-webkit-builder/bin/nwbuild -v 0.10.1 -p linux32,linux64 ./'
 ]));

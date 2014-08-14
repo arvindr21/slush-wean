@@ -26,6 +26,32 @@ Run the generator from within the new folder:
 $ cd my-slush-wean && slush wean
 ```
 
+## Running the App
+
+To run the app execute 
+
+```bash
+$ gulp run
+```
+
+To build the app for mac run
+
+```bash
+$ gulp build-osx
+```
+
+To build the app for windows run
+
+```bash
+$ gulp build-win
+```
+
+To build the app for linux run
+
+```bash
+$ gulp build-linux
+```
+
 ## Getting To Know Slush
 
 Slush is a tool that uses Gulp for project scaffolding.
