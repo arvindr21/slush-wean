@@ -10,7 +10,7 @@
     }
     body {
         width: 100%;
-        height: 100%;
+        height: 100%q;
         margin: 0;
         padding: 0;
     }
@@ -69,13 +69,13 @@
         width: 188px;
         font-size: 23px;
     }
-    h1{
-      text-align: center;
-      color: #eee;
+    h1 {
+        text-align: center;
+        color: #eee;
     }
     </style>
     <script>
-    function bodyOnLoad() {
+    function init() {
         require('./app.js');
         setTimeout(function() {
             window.location.assign('http://localhost:3000');
@@ -84,10 +84,12 @@
     </script>
 </head>
 
-<body onload="bodyOnLoad()">
+<body onload="init()">
     <div class="loading-container">
         <div class="loading"></div>
-        <div id="loading-text"><%=appName%></div>
+        <div id="loading-text">
+            <%=appName%>
+        </div>
     </div>
     <h1>Loading.. Please wait..</h1>
 </body>

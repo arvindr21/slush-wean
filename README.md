@@ -2,6 +2,8 @@
 
 > A slush generator to generate Webkit Express Angular Node desktop apps
 
+#### Inspired by [node-webkit-nedb-rest-angular](https://github.com/buberdds/node-webkit-nedb-rest-angular)
+
 ## Getting Started
 
 Install `slush-wean` globally:
