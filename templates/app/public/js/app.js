@@ -14,7 +14,7 @@ angular.module('<%=appNameSlug%>', ['ngResource'])
       };
 
       $scope.toggleFullscreen = function() {
-        Window.toggleFullscreen();
+        Window.toggleKioskMode();
       };
 
       $scope.close = function() {

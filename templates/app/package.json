@@ -10,6 +10,11 @@
         "ejs": "~0.8.5",
         "debug": "~0.7.4"
     },
+    "devDependencies": {
+        "gulp": "^3.8.7",
+        "gulp-shell": "^0.2.9",
+        "node-webkit-builder": "^0.1.1"
+    },
     "window": {
         "title": "<%=appNameSlug%>",
         "toolbar": false,
