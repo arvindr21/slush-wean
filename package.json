@@ -1,7 +1,7 @@
 {
     "name": "slush-wean",
     "description": "A slush generator to generate Webkit Express Angular Node desktop apps",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "homepage": "https://github.com/arvindr21/slush-wean",
     "author": {
         "name": "Arvind Ravulavaru",

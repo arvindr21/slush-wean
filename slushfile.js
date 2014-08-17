@@ -50,6 +50,7 @@ gulp.task('default', function(done) {
         return done();
       }
       answers.appNameSlug = _.slugify(answers.appName);
+      answers.isWin = /^win/.test(process.platform);
       gulp.src([__dirname + '/templates/fonts/**'])
         .pipe(conflict('./public/fonts/'))
         .pipe(gulp.dest('./public/fonts/'));
