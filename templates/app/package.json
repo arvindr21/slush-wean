@@ -4,7 +4,7 @@
     "private": true,
     "main": "index.html",
     "dependencies": {
-        "express": "~3.4.8",
+       "express": "^4.x.x",
         "cookie-parser": "~1.0.1",
         "body-parser": "~1.0.0",
         "ejs": "~0.8.5",
