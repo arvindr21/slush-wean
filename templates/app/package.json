@@ -2,23 +2,23 @@
     "name": "<%=appNameSlug%>",
     "version": "0.0.1",
     "private": true,
-    "main": "index.html",
+    "main": "./app/index.html",
     "dependencies": {
-       "express": "^4.x.x",
-        "cookie-parser": "~1.0.1",
         "body-parser": "~1.0.0",
+        "cookie-parser": "~1.0.1",
+        "debug": "~0.7.4",
         "ejs": "~0.8.5",
-        "debug": "~0.7.4"
+        "express": "^4.x.x"
     },
     "devDependencies": {
         "gulp": "^3.8.7",
         "gulp-shell": "^0.2.9",
-        "node-webkit-builder": "^0.1.1"
+        "node-webkit-builder": "^1.0.8"
     },
     "window": {
         "title": "<%=appNameSlug%>",
         "toolbar": false,
-        "frame": false,
+        "frame": true,
         "position": "center",
         "fullscreen": false,
         "resizable": false,

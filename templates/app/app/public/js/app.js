@@ -9,6 +9,10 @@ angular.module('<%=appNameSlug%>', ['ngResource'])
   }])
   .controller('Toolbar', ['$scope', 'Window',
     function($scope, Window) {
+      /*
+      
+      Custom Control for Window operations
+
       $scope.minimize = function() {
         Window.minimize();
       };
@@ -19,6 +23,6 @@ angular.module('<%=appNameSlug%>', ['ngResource'])
 
       $scope.close = function() {
         Window.close();
-      };
+      };*/
     }
   ]);

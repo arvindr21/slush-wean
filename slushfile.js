@@ -52,8 +52,8 @@ gulp.task('default', function(done) {
       answers.appNameSlug = _.slugify(answers.appName);
       answers.isWin = /^win/.test(process.platform);
       gulp.src([__dirname + '/templates/fonts/**'])
-        .pipe(conflict('./public/fonts/'))
-        .pipe(gulp.dest('./public/fonts/'));
+        .pipe(conflict('./app/public/fonts/'))
+        .pipe(gulp.dest('./app/public/fonts/'));
 
       gulp.src(__dirname + '/templates/app/**')
         .pipe(template(answers))

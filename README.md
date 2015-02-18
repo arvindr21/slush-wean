@@ -37,19 +37,31 @@ $ gulp run
 To build the app for mac run
 
 ```bash
-$ gulp build-osx
+$ gulp build --mac
 ```
 
 To build the app for windows run
 
 ```bash
-$ gulp build-win
+$ gulp build --win
 ```
 
 To build the app for linux run
 
 ```bash
-$ gulp build-linux
+$ gulp build --linux32
+```
+
+or
+
+```bash
+$ gulp build --linux64
+```
+
+To build for all platforms run
+
+```bash
+$ gulp build
 ```
 
 ## Getting To Know Slush
