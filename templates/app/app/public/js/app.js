@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('<%=appNameSlug%>', ['ngResource'])
+angular.module('<%=appNameSlug%>', [])
   .factory('GUI', function() {
     return require('nw.gui');
   })
